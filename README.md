@@ -36,8 +36,8 @@ Welcome to Local Splash, a vibrant marketplace fostering direct connections betw
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/local-splash.git
-    cd local-splash
+    git clone https://github.com/bantoinese83/Local-Splash.git
+    cd Local-Splash
     ```
 
 2.  **Install dependencies:**
