@@ -1,87 +1,272 @@
-# Local Splash
+<div align="center">
 
-Welcome to Local Splash, a vibrant marketplace fostering direct connections between emerging local artists and buyers looking for affordable, unique art. This project is built with a modern, production-ready tech stack, emphasizing a Pop Art aesthetic with an electric blue primary brand color.
+# 🎨 Local Splash
 
-## ✨ Features
+**A vibrant marketplace fostering direct connections between emerging local artists and buyers looking for affordable, unique art.**
 
-- **Artist Profiles**: Showcase your work and story.
-- **Artwork Listings**: Sell original pieces and prints.
-- **Secure Authentication**: Safe and easy login/signup powered by Supabase Auth.
-- **Artwork Gallery**: A clean, classic gallery view to browse local art.
-- **Basic Search & Filter**: Find the perfect piece of art.
-- **Responsive Design**: Fully accessible on any device, from mobile to desktop.
-- **Dark Mode**: Beautiful on both light and dark themes.
-- **Dynamic SEO**: Dynamic page titles, descriptions, and OpenGraph images for social sharing.
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-Database-green?style=for-the-badge&logo=supabase)](https://supabase.io/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployment-000000?style=for-the-badge&logo=vercel)](https://vercel.com/)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
+[![Built with ❤️ by Monarch MVP Tech](https://img.shields.io/badge/Built%20with%20❤️%20by-Monarch%20MVP%20Tech-red?style=for-the-badge)](https://monarchmvp.tech)
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-View_Now-blue?style=for-the-badge&logo=vercel)](https://local-splash.vercel.app)
+[![GitHub Stars](https://img.shields.io/github/stars/bantoinese83/Local-Splash?style=for-the-badge&logo=github)](https://github.com/bantoinese83/Local-Splash)
+[![GitHub Forks](https://img.shields.io/github/forks/bantoinese83/Local-Splash?style=for-the-badge&logo=github)](https://github.com/bantoinese83/Local-Splash/fork)
+
+</div>
+
+---
+
+## 🌟 Overview
+
+**Local Splash** is a modern, full-featured art marketplace that connects emerging local artists with art enthusiasts. Built with a **Pop Art aesthetic** featuring bold colors, energetic typography, and 3D shadow effects, it provides a vibrant platform for discovering and purchasing unique, affordable art.
+
+### 🎯 **Mission**
+To democratize art by making it accessible to everyone while providing emerging artists with a platform to showcase and sell their work directly to their community.
+
+---
+
+## ✨ Key Features
+
+### 🎨 **For Artists**
+- **Artist Profiles**: Create stunning profiles with bio, portfolio, and social links
+- **Artwork Management**: Upload and manage original pieces and prints
+- **Earnings Dashboard**: Track sales, commissions, and payouts
+- **Order Management**: Handle purchase requests and shipping
+- **Commission System**: 10% platform fee with transparent pricing
+
+### 🛒 **For Buyers**
+- **Art Discovery**: Browse curated collections and discover new artists
+- **Advanced Search**: Filter by category, price, artist, and style
+- **Secure Checkout**: Safe payment processing with order tracking
+- **Artist Stories**: Learn about the creators behind the art
+- **Wishlist**: Save favorite pieces for later
+
+### 🏢 **Platform Features**
+- **Blog System**: Artist interviews, art scene news, and community content
+- **Responsive Design**: Perfect experience on all devices
+- **SEO Optimized**: Dynamic sitemaps, OpenGraph images, and meta tags
+- **Dark Mode**: Beautiful themes for every preference
+- **Real-time Updates**: Live notifications and updates
+
+---
 
 ## 🚀 Tech Stack
 
-- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Authentication & Database**: [Supabase](https://supabase.io/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) with [Shadcn/UI](https://ui.shadcn.com/)
-- **State Management**: Zustand
-- **Form Handling**: [React Hook Form](https://react-hook-form.com/) & [Zod](https://zod.dev/)
-- **Deployment**: [Vercel](https://vercel.com/) & [Supabase](https://supabase.io/)
+### **Frontend**
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)](https://nextjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/) [![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-Components-000000?style=flat-square)](https://ui.shadcn.com/)
 
-## 📦 Getting Started
+### **Backend & Database**
+[![Supabase](https://img.shields.io/badge/Supabase-Database-green?style=flat-square&logo=supabase)](https://supabase.io/) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?style=flat-square&logo=postgresql)](https://postgresql.org/) [![Row Level Security](https://img.shields.io/badge/RLS-Security-FF6B6B?style=flat-square)](https://supabase.com/docs/guides/auth/row-level-security)
 
-### 1. Prerequisites
+### **State Management & Forms**
+[![Zustand](https://img.shields.io/badge/Zustand-State_Management-FF6B6B?style=flat-square)](https://zustand-demo.pmnd.rs/) [![React Hook Form](https://img.shields.io/badge/React_Hook_Form-Forms-EC5990?style=flat-square)](https://react-hook-form.com/) [![Zod](https://img.shields.io/badge/Zod-Validation-3E67B1?style=flat-square)](https://zod.dev/)
 
-- Node.js (v18 or later)
+### **Deployment & Infrastructure**
+[![Vercel](https://img.shields.io/badge/Vercel-Deployment-000000?style=flat-square&logo=vercel)](https://vercel.com/) [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/bantoinese83/Local-Splash)
+
+---
+
+## 🎨 Design System
+
+### **Pop Art Aesthetic**
+- **Electric Blue** (`#0080FF`) - Primary brand color
+- **Vivid Red** (`#FF4757`) - Secondary actions and highlights  
+- **Sunny Yellow** (`#FFD700`) - Accent backgrounds and success states
+- **Bold Black** - Outlines, text, and graphic definition
+
+### **Typography**
+- **Display Font**: Bungee - For headlines and hero text
+- **Body Font**: Inter - For readable content
+- **Style**: Bold, uppercase, tightly tracked for energetic feel
+
+### **Visual Elements**
+- **3D Shadows**: `shadow-[4px_4px_0px_#000]` for Pop Art depth
+- **Bold Borders**: 2px black borders throughout
+- **Pattern Backgrounds**: Dotted patterns for texture
+- **Hover Animations**: Smooth transitions and interactive feedback
+
+---
+
+## 📊 Database Schema
+
+### **Core Tables**
+- **`profiles`** - User profiles and artist information
+- **`artworks`** - Artwork listings with metadata
+- **`categories`** - Art categories and classifications
+- **`orders`** - Purchase tracking and commission management
+- **`blog_posts`** - Community content and artist stories
+- **`blog_comments`** - User engagement and discussions
+
+### **Key Features**
+- **Row Level Security (RLS)** - Secure data access
+- **Real-time subscriptions** - Live updates
+- **File storage** - Image uploads and management
+- **Commission tracking** - Automated fee calculation
+
+---
+
+## 🚀 Quick Start
+
+### **Prerequisites**
+- Node.js 18+ 
 - pnpm (or npm/yarn)
-- A Supabase account
+- Supabase account
 
-### 2. Setup
+### **1. Clone & Install**
+```bash
+git clone https://github.com/bantoinese83/Local-Splash.git
+cd Local-Splash
+pnpm install
+```
 
-1.  **Clone the repository:**
+### **2. Environment Setup**
+```bash
+cp .env.local.example .env.local
+```
 
-    ```bash
-    git clone https://github.com/bantoinese83/Local-Splash.git
-    cd Local-Splash
-    ```
+Add your Supabase credentials:
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+```
 
-2.  **Install dependencies:**
+### **3. Database Setup**
+1. Create a [Supabase project](https://app.supabase.io)
+2. Run the migration files in SQL Editor:
+   - `supabase/migrations/0001_initial_schema.sql`
+   - `supabase/migrations/0002_add_commission_system.sql`
+   - `supabase/migrations/0003_add_blog_system.sql`
 
-    ```bash
-    pnpm install
-    ```
+### **4. Start Development**
+```bash
+pnpm dev
+```
 
-3.  **Set up Supabase:**
+Visit [http://localhost:3000](http://localhost:3000) 🎉
 
-    - Create a new project on [Supabase](https://app.supabase.io).
-    - Go to the **SQL Editor** and run the contents of `supabase/migrations/0001_initial_schema.sql` to set up your database tables and policies.
-    - Go to **Project Settings > API** and find your Project URL and `anon` public key.
+---
 
-4.  **Configure Environment Variables:**
+## 📱 Application Routes
 
-    - Copy the example environment file:
+### **Public Pages**
+- **`/`** - Homepage with featured art
+- **`/art`** - Art gallery with search & filters
+- **`/artists`** - Artist directory
+- **`/blog`** - Community blog and stories
+- **`/art/[id]`** - Individual artwork pages
+- **`/artist/[username]`** - Artist profile pages
 
-      ```bash
-      cp .env.local.example .env.local
-      ```
+### **Authentication**
+- **`/auth/login`** - User login
+- **`/auth/signup`** - User registration
+- **`/auth/callback`** - OAuth callback
 
-    - Add your Supabase credentials to `.env.local`:
+### **User Dashboard**
+- **`/account`** - User profile management
+- **`/account/upload`** - Upload new artwork
+- **`/account/orders`** - Order history
+- **`/account/earnings`** - Sales analytics
 
-      ```
-      NEXT_PUBLIC_SUPABASE_URL=YOUR_SUPABASE_URL
-      NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
-      ```
+### **E-commerce**
+- **`/checkout`** - Secure checkout process
 
-### 3. Running the Development Server
+---
 
-    ```bash
-    pnpm dev
-    ```
+## 🛠️ Development
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **Available Scripts**
+```bash
+pnpm dev          # Start development server
+pnpm build        # Build for production
+pnpm start        # Start production server
+pnpm lint         # Run ESLint
+```
+
+### **Project Structure**
+```
+src/
+├── app/                 # Next.js App Router pages
+├── components/          # Reusable UI components
+│   ├── art/            # Artwork-related components
+│   ├── auth/           # Authentication components
+│   ├── blog/           # Blog system components
+│   ├── layout/         # Layout components
+│   └── ui/             # Base UI components
+├── lib/                # Utilities and configurations
+│   ├── supabase/       # Database client setup
+│   └── types.ts        # TypeScript definitions
+└── middleware.ts       # Next.js middleware
+```
+
+---
 
 ## 🌐 Deployment
 
-This project is optimized for deployment on Vercel.
+### **Vercel (Recommended)**
+1. Push to GitHub
+2. Import project in Vercel
+3. Add environment variables
+4. Deploy automatically
 
-1.  Push your code to a Git repository (GitHub, GitLab, Bitbucket).
-2.  Import the project into Vercel.
-3.  Vercel will automatically detect that you are using Next.js and configure the build settings.
-4.  Add your Supabase environment variables in the Vercel project settings.
-5.  Deploy! Vercel's CI/CD will automatically redeploy your application on every push to the main branch.
+### **Environment Variables**
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+NEXT_PUBLIC_SITE_URL=your_domain
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+### **Development Workflow**
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- **Monarch MVP Tech** - Built with ❤️ by [Monarch MVP Tech](https://monarchmvp.tech)
+- **Supabase** - Amazing backend-as-a-service platform
+- **Vercel** - Seamless deployment and hosting
+- **Shadcn/UI** - Beautiful, accessible component library
+- **Next.js Team** - Incredible React framework
+
+---
+
+## 📞 Support
+
+- **Documentation**: [Full Setup Guide](SUPABASE_SETUP.md)
+- **Issues**: [GitHub Issues](https://github.com/bantoinese83/Local-Splash/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/bantoinese83/Local-Splash/discussions)
+
+---
+
+<div align="center">
+
+**Made with ❤️ by [Monarch MVP Tech](https://monarchmvp.tech)**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/bantoinese83/Local-Splash)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-View_Now-blue?style=for-the-badge&logo=vercel)](https://local-splash.vercel.app)
+
+</div>
 
